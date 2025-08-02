@@ -1,0 +1,75 @@
+/* Full-page background */
+.signup-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #ffebee, #e3f2fd);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* White signup box */
+.signup-box {
+  background-color: white;
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Heading */
+.signup-title {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #1976d2;
+}
+
+/* Input fields */
+.signup-form input {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.signup-form input:focus {
+  border-color: #42a5f5;
+}
+
+/* Submit button */
+.signup-form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1rem;
+  background-color: #42a5f5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: #1976d2;
+}
+
+/* Login redirect text */
+.login-redirect {
+  margin-top: 1rem;
+  color: #555;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.login-redirect span {
+  color: #1976d2;
+  font-weight: 600;
+}

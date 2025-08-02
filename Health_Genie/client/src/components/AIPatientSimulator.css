@@ -1,0 +1,45 @@
+/* AIPatientSimulator.css */
+
+.simulator-container {
+  padding: 2rem;
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.simulator-container input {
+  width: 80%;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.simulator-container button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.simulator-container button:disabled {
+  background-color: #888;
+}
+
+.case-output {
+  margin-top: 2rem;
+  text-align: left;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  white-space: pre-wrap;
+}

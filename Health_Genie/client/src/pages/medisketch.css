@@ -1,0 +1,80 @@
+.medisketch-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.input-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.input-controls input {
+  padding: 0.6rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.upload-btn,
+.mic-btn,
+.generate-btn {
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.upload-btn:hover,
+.mic-btn:hover,
+.generate-btn:hover {
+  background-color: #483d8b;
+}
+
+.output-box {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.output-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #7c3aed;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin 1s linear infinite;
+  margin-top: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
